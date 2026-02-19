@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+    }
+
+    header {
+      background-color: #0a2540;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ffffff;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #0a2540;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    .section {
+      background-color: white;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .service-box {
+      background-color: #f9fafb;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #0a2540;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>My Website</h1>
+  <p>Simple, clean and professional</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Services</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+  <div class="section">
+    <h2>About Us</h2>
+    <p>
+      We provide customer support, product assistance and technical guidance for our clients.
+      Our goal is to help users quickly and efficiently.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-box">Customer Support</div>
+      <div class="service-box">Order Tracking</div>
+      <div class="service-box">Refunds & Returns</div>
+      <div class="service-box">Product Guidance</div>
+      <div class="service-box">Technical Help</div>
+      <div class="service-box">Account Management</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Contact Us</h2>
+    <p>Email: support@example.com</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Working Hours: Mon – Sat (9AM – 6PM)</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 My Website. All rights reserved.</p>
+</footer>
+<script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '69943b98842976191e0565ac' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production',
+          voice: {
+            url: "https://runtime-api.voiceflow.com"
+          }
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+</body>
+</html>
