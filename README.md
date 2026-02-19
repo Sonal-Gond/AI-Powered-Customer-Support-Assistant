@@ -18,10 +18,9 @@ Reconnect Knowledge Base (RAG)
 
 Integrate Messaging Platform (Optional)
 
-To connect with:
-Telegram (use flowbridge or other thirsd party)
+-> Telegram (use flowbridge or other thirsd party)
 
-WhatsApp (using twillio sandbox or other third party )
+-> WhatsApp (using twillio sandbox or other third party )
 
-Web Chat :
-- goto voiceflow project -> interfaces -> copy the code -> paste the code inside website html code before </body> tag
+-> Web Chat :
+  - goto voiceflow project -> interfaces -> copy the code -> paste the code inside website html code before </body> tag
