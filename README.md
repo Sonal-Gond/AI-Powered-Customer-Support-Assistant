@@ -29,3 +29,8 @@
 -> Web Chat :
   - goto voiceflow project -> interfaces -> copy the code -> paste the code inside website html code before </body> tag
   - If using html file of these github repo replace "YOUR_PROJECT_ID" with your actual project file  
+
+
+Voiceflow Agent workflow : 
+<img width="4041" height="1218" alt="voiceflow-export-1785834493321" src="https://github.com/user-attachments/assets/f70ad78d-cf23-4c8d-8773-0738a830e72b" />
+
